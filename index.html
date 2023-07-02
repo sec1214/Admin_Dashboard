@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <div id="dashboard_icon">
+          <img
+            class="icons"
+            src="images/view-dashboard-variant.svg"
+            alt="dashboard"
+          />
+
+          <div>Dashboard</div>
+        </div>
+        <div
+          class="sidebar_wrapper"
+          onclick="parent.open('https://github.com/sec1214?tab=repositories')"
+          style="cursor: pointer"
+        >
+          <img
+            class="icons"
+            src="images/card-account-details.svg"
+            alt="profile"
+          />
+
+          <div>Profile</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/chat-question.svg" alt="messages" />
+
+          <div>Messages</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/clock-time-four.svg" alt="history" />
+
+          <div>History</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/calendar-check.svg" alt="tasks" />
+
+          <div>Tasks</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/account-group.svg" alt="communities" />
+
+          <div>Communities</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/cog.svg" alt="settings" />
+
+          <div>Settings</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/tooltip-question.svg" alt="support" />
+
+          <div>Support</div>
+        </div>
+        <div class="sidebar_wrapper">
+          <img class="icons" src="images/shield-check.svg" alt="dashboard" />
+
+          <div>Privacy</div>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="header_wrapper_grid">
+          <img id="magnifying_glass" src="images/magnify.svg" alt="support" />
+          <input id="text_input" type="text" />
+          <img
+            id="alert_bell"
+            class="icons"
+            src="images/bell-ring.svg"
+            alt="alert"
+          />
+          <img id="account_icon" src="images/eyeball.jpg" alt="support" />
+          <div id="profile_name">Stephen Corbo</div>
+          
+          
+          <img id="account_icon_2" src="images/eyeball.jpg" alt="support" />
+          <div id="welcome_message">
+            Hi there,<br />
+            Stephen Corbo (@stephen)
+          </div>
+          <button id="new_btn">New</button>
+          <button id="upload_btn">Upload</button>
+          <button id="share_btn">Share</button>
+        </div>
+      </div>
+      <!-- MAIN CONTENT -->
+      <div class="main_content">
+        <div class="main_content_wrapper">
+          <div id="your_projects">Your Projects</div>
+          <div id="announcement">Announcements</div>
+          <div
+            class="main_content_divs"
+            id="sign_up_form"
+            onclick="parent.open('https://sec1214.github.io/designFile/')"
+            style="cursor: pointer"
+          >
+            <div class="your_projects_title">Sign Up Form</div>
+            <div class="your_projects_latin_paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="your_projects_sharing_liking_div">
+              <img
+                class="icons"
+                src="images/star-plus-outline.svg"
+                alt="star"
+              />
+              <img class="icons" src="images/eye-plus-outline.svg" alt="star" />
+              <img
+                class="icons"
+                src="images/share-variant-outline.svg"
+                alt="star"
+              />
+            </div>
+          </div>
+          <div
+            class="main_content_divs"
+            id="landing_page"
+            onclick="parent.open('https://sec1214.github.io/landingpage/')"
+            style="cursor: pointer"
+          >
+            <div class="your_projects_title">Landing Page</div>
+            <div class="your_projects_latin_paragraph">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="your_projects_sharing_liking_div">
+              <img
+                class="icons"
+                src="images/star-plus-outline.svg"
+                alt="star"
+              />
+              <img class="icons" src="images/eye-plus-outline.svg" alt="star" />
+              <img
+                class="icons"
+                src="images/share-variant-outline.svg"
+                alt="star"
+              />
+            </div>
+          </div>
+          <div
+            class="main_content_divs"
+            id="odin_recipes"
+            onclick="parent.open('https://sec1214.github.io/odin-recipes/')"
+            style="cursor: pointer"
+          >
+            <div class="your_projects_title">Odin Recipes</div>
+            <div class="your_projects_latin_paragraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="your_projects_sharing_liking_div">
+              <img
+                class="icons"
+                src="images/star-plus-outline.svg"
+                alt="star"
+              />
+              <img class="icons" src="images/eye-plus-outline.svg" alt="star" />
+              <img
+                class="icons"
+                src="images/share-variant-outline.svg"
+                alt="star"
+              />
+            </div>
+          </div>
+          <div
+            class="main_content_divs"
+            id="etch_a_sketch"
+            onclick="parent.open('https://sec1214.github.io/etch-a-sketch/')"
+            style="cursor: pointer"
+          >
+            <div class="your_projects_title">Etch A Sketch</div>
+            <div class="your_projects_latin_paragraph">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="your_projects_sharing_liking_div">
+              <img
+                class="icons"
+                src="images/star-plus-outline.svg"
+                alt="star"
+              />
+              <img class="icons" src="images/eye-plus-outline.svg" alt="star" />
+              <img
+                class="icons"
+                src="images/share-variant-outline.svg"
+                alt="star"
+              />
+            </div>
+          </div>
+          <div
+            class="main_content_divs"
+            id="rock_paper_scissors"
+            onclick="parent.open('https://sec1214.github.io/rockPaperScissors/')"
+            style="cursor: pointer"
+          >
+            <div class="your_projects_title">Rock Paper Scissors</div>
+            <div class="your_projects_latin_paragraph">
+              Adipiscing elit pellentesque habitant morbi tristique senectus et.
+              Vitae purus faucibus ornare suspendisse sed nisi lacus sed
+              viverra.
+            </div>
+            <div class="your_projects_sharing_liking_div">
+              <img
+                class="icons"
+                src="images/star-plus-outline.svg"
+                alt="star"
+              />
+              <img class="icons" src="images/eye-plus-outline.svg" alt="star" />
+              <img
+                class="icons"
+                src="images/share-variant-outline.svg"
+                alt="star"
+              />
+            </div>
+          </div>
+          <div
+            class="main_content_divs"
+            id="calculator_project"
+            onclick="parent.open('https://sec1214.github.io/calculator/')"
+            style="cursor: pointer"
+          >
+            <div class="your_projects_title">Calculator Project</div>
+            <div class="your_projects_latin_paragraph">
+              Dictum sit amet justo donec enim diam vulputate ut. Vitae tortor
+              condimentum lacinia quis vel eros donec. Sagittis nisl rhoncus
+              mattis rhoncus urna neque viverra justo nec.
+            </div>
+            <div class="your_projects_sharing_liking_div">
+              <img
+                class="icons"
+                src="images/star-plus-outline.svg"
+                alt="star"
+              />
+              <img class="icons" src="images/eye-plus-outline.svg" alt="star" />
+              <img
+                class="icons"
+                src="images/share-variant-outline.svg"
+                alt="star"
+              />
+            </div>
+          </div>
+          <div id="announcements"></div>
+          <div id="trending"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
