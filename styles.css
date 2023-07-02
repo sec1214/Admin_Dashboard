@@ -138,31 +138,35 @@ svg {
 }
 
 #account_icon_2 {
-
     width: 4rem;
     height: auto;
     border-radius: 45%;
-
 }
 
 
 #welcome_message{
-    grid-column: 5/9;
-    grid-row: 2/3;
+    grid-column: 4/9;
+    grid-row: 2/3;  
 }
+
+ #profile_name{
+     padding-top:.5rem;
+     font-weight: bold;
+ }
 
 button{
     border-radius: 12px;
     border: none;
     background-color: white;
     height: 1.75rem;
-
+    font-size: 1rem;
 }
 
 #new_btn {
     grid-column: 9/12;
     grid-row: 2/3;
     height: 1.75rem;
+    
 } 
 
 #upload_btn {
