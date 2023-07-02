@@ -1,3 +1,10 @@
+:root {
+    --light_blue: #98EECC;
+    --blue_green: #D0F5BE;
+    --off_white:#FBFFDC;
+    --brown: #A4907C;
+  }
+
 
 *{
     box-sizing: border-box;
@@ -5,7 +12,6 @@
 }
 
 html, body{
-    background-color: lightcoral;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -27,23 +33,26 @@ html, body{
 .sidebar {
     grid-row: 1/-1;
     grid-column: 1/2;
-    background-color: orange;
+    background-color: var(--brown);
     height: auto;
+    color:var(--off_white);
   
 }
 
 .icons {
     width: 1.5rem;
     height: auto;
-    margin-right: .5rem;
+    margin-right: .5rem;   
 }
 
-
+svg {
+    fill:var(--off_white);
+}
 
 .header {
     grid-row: 1;
     grid-column:2/-1;
-    background-color: aqua; 
+    background-color: var(--light_blue); 
     display: grid;
     align-content: center;
     
@@ -121,14 +130,21 @@ html, body{
    margin: 1rem;
 }
 
-#account_icon_2 {
-    grid-column: 3/4;
+#profile_placer {
+    grid-column: 2/4;
     grid-row: 2/3;
+    display:grid;
+    justify-content: center;
+}
+
+#account_icon_2 {
+
     width: 4rem;
     height: auto;
     border-radius: 45%;
-    
+
 }
+
 
 #welcome_message{
     grid-column: 5/9;
@@ -195,8 +211,8 @@ button{
 .main_content {
     grid-row: 2/-1;
     grid-column: 2/-1;
-    background-color: blue;
-    overflow: scroll;
+    background-color: var(--off_white);
+    overflow-y: scroll;
     
 } 
 
