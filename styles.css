@@ -70,7 +70,7 @@ html, body{
     border-radius:25px;
     height: 1.75rem;
     border: none;
-    
+
 }
 
 #alert_bell {
@@ -242,6 +242,15 @@ button{
     align-items: end;
 } 
 
+#trending_title {
+    grid-column: 14/18;
+    grid-row: 11/12;
+    display:grid;
+    align-items: end;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} 
+
 .your_projects_title{
     color:darkslategray;
     font-size: 1.25rem;
@@ -294,10 +303,50 @@ button{
     grid-row: 3/11;
     background-color: white;
     border-radius: 12px;
+    padding: 1rem;
 }
 #trending{
     grid-column: 14/18;
     grid-row: 12/20;
     background-color: white;
     border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.your_projects_title_announcements{
+    color:darkslategray;
+    font-size: 1rem;
+    margin-bottom: .2rem;
+}
+
+.your_projects_latin_paragraph_announcements{
+    font-size: .9rem;
+}
+
+.line-1 {
+    height: 1px;
+    background: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.trending_accounts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trending_accounts:hover {
+    display: flex;
+    justify-content: space-around;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.spacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
